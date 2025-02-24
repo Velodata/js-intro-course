@@ -1,2 +1,3 @@
 // JavaScript file for the lesson
-console.log('Hello, JavaScript!');
+let msg = "Equinim College";
+console.log(`Lesson Two, I am learning JavaScript with ${msg}!`);

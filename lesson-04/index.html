@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+
+<!-- IJV - 2025.02.24 - In this lesson we're seeing how a function can be in the HEAD Statement -->
+
+
+<html>
+
+<head>
+    <title>Lesson 04</title>
+    <script>
+        function F0_Change_Text() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        function F0_Reset() {
+            document.getElementById("demo").innerHTML = "Paragraph back to original.";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Lesson 04 - JavaScript Functions can be in the Head Statement</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="F0_Change_Text()">Change the Text</button>
+    <button type="button" onclick="F0_Reset()">Reset the Text</button>
+</body>
+
+</html
